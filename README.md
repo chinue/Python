@@ -14,7 +14,7 @@
        printf("i=%d\n", 10)
        printf("i=%d\n" % 10)
     ```
-- **<font color=#ff8000>print2</font>**(print_text, \*args, textColor='white', end='\n')
+- **<font color=#ff8000>print2</font>**(print_text, \*args, textColor='white', end='\n')    
     The usage of this function is similer to 'print' in Python but with a key parameter 'textColor' more
     ```Python
        print2("i=%d" % 10, textColor='green')
