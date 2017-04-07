@@ -154,3 +154,9 @@ class Timer:
                 printf("%s time=%.0f us", tag, diff*1000.0, textColor="yellow", end=end)
         self.__t1=self.__t2
         return diff
+
+def secToHMS(sec):
+    s=int(sec)
+    h=s//3600;  s=s%3600
+    m=s//60;  s=s%60
+    return h,m,s
